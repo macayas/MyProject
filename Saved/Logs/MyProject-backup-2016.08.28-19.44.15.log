@@ -1,0 +1,192 @@
+﻿Log file open, 08/28/16 19:41:45
+LogInit:Display: Running engine for game: MyProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(698411188) SRandInit(698411191).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.473927
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.08.28-17.41.46:271][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.28-17.41.46:271][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.08.28-17.41.46:293][  0]LogInit: Computer: DESKTOP-5FT42E9
+[2016.08.28-17.41.46:293][  0]LogInit: User: Carlos
+[2016.08.28-17.41.46:293][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.08.28-17.41.46:293][  0]LogInit: High frequency timer resolution =2.531251 MHz
+[2016.08.28-17.41.46:293][  0]LogMemory: Memory total: Physical=7.4GB (8GB approx)
+[2016.08.28-17.41.46:293][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.28-17.41.46:293][  0]LogMemory: Process Physical Memory: 190.24 MB used, 190.24 MB peak
+[2016.08.28-17.41.46:293][  0]LogMemory: Process Virtual Memory: 195.05 MB used, 195.05 MB peak
+[2016.08.28-17.41.46:293][  0]LogMemory: Physical Memory: 2536.89 MB used, 7607.94 MB total
+[2016.08.28-17.41.46:293][  0]LogMemory: Virtual Memory: 554.63 MB used, 134217728.00 MB total
+[2016.08.28-17.41.47:444][  0]LogD3D11RHI: D3D11 adapters:
+[2016.08.28-17.41.47:479][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M                 ' (Feature Level 11_0)
+[2016.08.28-17.41.47:479][  0]LogD3D11RHI:       1995/0/3803 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.08.28-17.41.47:485][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2016.08.28-17.41.47:485][  0]LogD3D11RHI:       128/0/3803 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2016.08.28-17.41.47:487][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.08.28-17.41.47:487][  0]LogD3D11RHI:       0/0/3803 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.08.28-17.41.47:487][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.08.28-17.41.47:492][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.08.28-17.41.47:492][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2016.08.28-17.41.47:492][  0]LogWindows: EnumDisplayDevices:
+[2016.08.28-17.41.47:492][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2016.08.28-17.41.47:492][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2016.08.28-17.41.47:493][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2016.08.28-17.41.47:493][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2016.08.28-17.41.47:493][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M                 
+[2016.08.28-17.41.47:493][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2016.08.28-17.41.47:493][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.08.28-17.41.47:493][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.08.28-17.41.47:508][  0]LogD3D11RHI: Async texture creation enabled
+[2016.08.28-17.41.47:519][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.08.28-17.41.47:519][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/Carlos/Documents/Unreal Projects/MyProject/Intermediate/Shaders/WorkingDirectory/8368/).
+[2016.08.28-17.41.47:520][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Carlos/AppData/Local/Temp/UnrealShaderWorkingDir/DB1A6D0B44B8B2AC5CB8C380A0DFF8F8/'.
+[2016.08.28-17.41.47:520][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.08.28-17.41.52:260][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.08.28-17.41.52:269][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.08.28-17.41.52:277][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.08.28-17.41.52:286][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.08.28-17.41.52:295][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.08.28-17.41.52:306][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.08.28-17.41.52:314][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.08.28-17.41.52:322][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.08.28-17.41.52:329][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.08.28-17.41.52:338][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.08.28-17.41.52:345][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.08.28-17.41.52:360][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.08.28-17.41.52:360][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.08.28-17.41.52:361][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.08.28-17.41.52:424][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.08.28-17.41.52:432][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.08.28-17.41.52:439][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.08.28-17.41.52:447][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.08.28-17.41.52:457][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.08.28-17.41.52:457][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.28-17.41.53:622][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.08.28-17.41.54:379][  0]LogDerivedDataCache: Loaded boot cache 0.75s 48MB C:/Users/Carlos/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.08.28-17.41.54:379][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Carlos/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.08.28-17.41.54:380][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Carlos/Documents/Unreal Projects/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.28-17.41.54:380][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.08.28-17.41.54:380][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Carlos/Documents/Unreal Projects/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.08.28-17.41.54:380][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.08.28-17.41.54:492][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.08.28-17.41.54:528][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Carlos/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.08.28-17.42.06:285][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.28-17.42.06:440][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.08.28-17.42.10:776][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.08.28-17.42.10:776][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.08.28-17.42.10:776][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.08.28-17.42.17:829][  0]LogAssetRegistry: FAssetRegistry took 0.0286 seconds to start up
+[2016.08.28-17.42.18:271][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.294189 seconds
+[2016.08.28-17.42.18:345][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.08.28-17.42.18:345][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2016.08.28-17.42.18:345][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.08.28-17.42.18:432][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.08.28-17.42.27:053][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.28-17.42.27:068][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.28-17.42.52:589][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.08.28-17.42.54:818][  0]SourceControl: Info Source control is disabled
+[2016.08.28-17.42.54:878][  0]SourceControl: Info Source control is disabled
+[2016.08.28-17.42.54:930][  0]SourceControl: Info Source control is disabled
+[2016.08.28-17.42.54:954][  0]SourceControl: Info Source control is disabled
+[2016.08.28-17.42.56:622][  0]LogEngine: Initializing Engine...
+[2016.08.28-17.42.56:741][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.08.28-17.42.56:744][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.08.28-17.42.58:614][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.08.28-17.42.58:957][  0]LogInit: XAudio2 using 'Altavoces (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.28-17.42.59:033][  0]LogInit: FAudioDevice initialized.
+[2016.08.28-17.42.59:061][  0]LogDerivedDataCache: Saved boot cache 0.03s 48MB C:/Users/Carlos/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.08.28-17.42.59:069][  0]LogInit: Texture streaming: Enabled
+[2016.08.28-17.42.59:452][  0]LogInit: Transaction tracking system initialized
+[2016.08.28-17.42.59:913][  0]BlueprintLog: New page: Editor Load
+[2016.08.28-17.43.01:260][  0]LocalizationService: Info Localization service is disabled
+[2016.08.28-17.43.02:261][  0]LogConsoleResponse:Display: 
+[2016.08.28-17.43.08:729][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Carlos/Documents/Unreal Projects/MyProject/Content/' took 0.05s
+[2016.08.28-17.43.08:729][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.08.28-17.43.08:729][  0]LogCook:Display: Mobile HDR setting 1
+[2016.08.28-17.43.11:688][  0]SourceControl: Info Source control is disabled
+[2016.08.28-17.43.11:738][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.28-17.43.11:822][  0]LightingResults: New page: Lighting Build
+[2016.08.28-17.43.12:087][  0]MapCheck: New page: Map Check
+[2016.08.28-17.43.12:087][  0]LightingResults: New page: Lighting Build
+[2016.08.28-17.43.14:681][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.08.28-17.43.15:752][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.28-17.43.15:829][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.28-17.43.15:912][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 83.06ms to complete.
+[2016.08.28-17.43.15:912][  0]LogFileHelpers: Loading map 'Template_Default' took 4.203
+[2016.08.28-17.43.17:509][  0]LogCollectionManager: Loaded 0 collections in 0.004489 seconds
+[2016.08.28-17.43.17:688][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Carlos/Documents/Unreal Projects/MyProject/Saved/Collections/' took 0.01s
+[2016.08.28-17.43.17:688][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Carlos/Documents/Unreal Projects/MyProject/Content/Developers/Carlos/Collections/' took 0.01s
+[2016.08.28-17.43.17:688][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Carlos/Documents/Unreal Projects/MyProject/Content/Collections/' took 0.01s
+[2016.08.28-17.43.17:688][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.08.28-17.43.17:714][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2047 classes and 369 folders.
+[2016.08.28-17.43.17:753][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.08.28-17.43.17:761][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.008 s
+[2016.08.28-17.43.17:762][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 12 classes and 0 folders.
+[2016.08.28-17.43.17:782][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.08.28-17.43.19:890][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2016.08.28-17.43.19:985][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2016.08.28-17.43.20:956][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.08.28-17.43.21:117][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.08.28-17.43.21:181][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.08.28-17.43.21:182][  0]LogLoad: Full Startup: 105.51 seconds (BP compile: 0.73 seconds)
+[2016.08.28-17.43.21:182][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.08.28-17.43.21:182][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.08.28-17.43.21:256][  0]LogOcInput: OculusInput pre-init called
+[2016.08.28-17.43.21:583][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.08.28-17.43.23:032][  1]LogRenderer: Reallocating scene render targets to support 816x372 (Frame:2).
+[2016.08.28-17.43.24:269][  4]LogAssetRegistry: Asset discovery search completed in 66.4644 seconds
+[2016.08.28-17.43.24:288][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.08.28-17.43.24:288][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.018825 seconds (updated 0 objects)
+[2016.08.28-17.43.58:784][346]LogCrashTracker: 
+
+
+[2016.08.28-17.43.58:784][346]LogCrashTracker: 
+
+
+[2016.08.28-17.43.58:784][346]LogWindows:Error: === Critical error: ===
+Fatal error!
+
+
+
+[2016.08.28-17.43.58:813][346]LogExit: Executing StaticShutdownAfterError
+[2016.08.28-17.44.01:834][346]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.08.28-17.44.01:834][346]Log file closed, 08/28/16 19:44:01
